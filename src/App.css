@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f000;
+  color: rgb(255, 255, 255);
 }
 
 #gameContainer {
@@ -29,14 +29,16 @@ body {
   width: 100%;
   padding-top: 100%;
   position: relative;
-  border: 2px solid black;
-  box-shadow: 0 0 0 2px black;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 0 3px black;
   font-size: 5vw;
   max-font-size: 50px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(255, 255, 255);
 }
 
 .cell > div {
@@ -55,4 +57,6 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  background-color: rgb(167, 0, 0);
+  color: white;
 }
