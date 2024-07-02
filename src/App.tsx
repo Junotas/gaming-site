@@ -9,7 +9,7 @@ declare module '@tanstack/react-router' {
     router: typeof router;
   }
 }
-
+//the thing breaks if you update the root.tsx got to fix it
 function App() {
   return (
     <RouterProvider router={router}>
