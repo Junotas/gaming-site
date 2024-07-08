@@ -1,0 +1,5 @@
+fix the vite default plugin, it's probably a default and then you set up your own tree after that importing the default x
+need components like header navbar etc x
+add more games, should be easy x
+add Dilans projects x
+rework the style of the project x

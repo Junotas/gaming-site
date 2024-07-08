@@ -10,6 +10,7 @@ declare module '@tanstack/react-router' {
   }
 }
 //the thing breaks if you update the root.tsx got to fix it
+//removed it so it no longer breaks but in need of refactoring of the arch
 function App() {
   return (
     <RouterProvider router={router}>
